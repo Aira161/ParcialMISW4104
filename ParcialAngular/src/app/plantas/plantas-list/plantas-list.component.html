@@ -7,22 +7,16 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Nombre Comun</th>
-      <th scope="col">Nombre Científico</th>
       <th scope="col">Tipo</th>
-      <th scope="col">Altura Máxima</th>
       <th scope="col">Clima</th>
-      <th scope="col">Sustrato Siembra</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let planta of plantas">
       <td>{{planta.id}}</td>
       <td>{{planta.nombre_comun}}</td>
-      <td>{{planta.nombre_cientifico}}</td>
       <td>{{planta.tipo}}</td>
-      <td>{{planta.altura_maxima}}</td>
       <td>{{planta.clima}}</td>
-      <td>{{planta.sustrato_siembra}}</td>
     </tr>
   </tbody>
 </table>
